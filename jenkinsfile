@@ -7,8 +7,8 @@ pipeline{
         steps{
             mygry('My param')
             script{
-            calc.add(10,10)
-            calc.mul(10,10)
+            calc.add(50,10)
+            calc.mul(10,50)
             }
           }
        }
